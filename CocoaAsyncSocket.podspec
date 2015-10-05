@@ -14,7 +14,8 @@ Updated and maintained by Deusty LLC and the Apple development community.
   s.homepage = 'https://github.com/robbiehanson/CocoaAsyncSocket'
   s.authors  = 'Dustin Voss', { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
 
-  s.source   = { :git => 'https://github.com/mishaehs/CocoaAsyncSocket.git'}
+  s.source   = { :git => 'https://github.com/mishaehs/CocoaAsyncSocket.git',
+                 :tag => "#{s.version}" }
 
   s.description = 'CocoaAsyncSocket supports TCP and UDP. The AsyncSocket class is for TCP, and the AsyncUdpSocket class is for UDP. ' \
                   'AsyncSocket is a TCP/IP socket networking library that wraps CFSocket and CFStream. It offers asynchronous ' \
